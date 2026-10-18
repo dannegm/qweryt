@@ -1,0 +1,310 @@
+{
+    "language": "English",
+    "common": {
+        "save": "Save",
+        "cancel": "Cancel",
+        "delete": "Delete",
+        "edit": "Edit",
+        "duplicate": "Duplicate",
+        "open": "Open",
+        "copy": "Copy",
+        "copied": "Copied",
+        "done": "Done",
+        "back": "Back",
+        "download": "Download",
+        "retry": "Try again",
+        "loading": "Loading…",
+        "required": "Required",
+        "invalid": "Invalid value",
+        "offline": "Offline · showing saved data"
+    },
+    "nav": {
+        "settings": "Settings",
+        "newQr": "New QR",
+        "home": "Go to the home page"
+    },
+    "home": {
+        "title": "My QR codes",
+        "searchPlaceholder": "Search by title, type or content",
+        "emptyTitle": "No QR codes yet",
+        "emptyDescription": "Create your first one. It is saved to this browser's identity and gets a public link you can share.",
+        "emptyAction": "Create a QR code",
+        "noResults": "Nothing matches “{{query}}”",
+        "loadError": "Couldn't load your QR codes",
+        "newQr": "New QR"
+    },
+    "card": {
+        "untitled": "Untitled QR",
+        "created": "Created {{date}}",
+        "by": "by {{name}}",
+        "you": "you",
+        "open": "Open",
+        "edit": "Edit",
+        "duplicate": "Duplicate",
+        "delete": "Delete",
+        "deleteTitle": "Delete this QR code?",
+        "deleteDescription": "“{{title}}” will be removed for good and its public link will stop working.",
+        "deleted": "QR code deleted",
+        "deleteError": "Couldn't delete the QR code",
+        "unavailable": "Can't render this QR code"
+    },
+    "detail": {
+        "notFoundTitle": "QR code not found",
+        "notFoundDescription": "This link may be wrong or the QR code was deleted.",
+        "loadError": "Couldn't load this QR code",
+        "download": "Download",
+        "copyLink": "Copy link",
+        "linkCopied": "Link copied",
+        "createYours": "Create your own",
+        "details": "Details",
+        "content": "Encoded content"
+    },
+    "editor": {
+        "newTitle": "New QR code",
+        "editTitle": "Edit QR code",
+        "duplicateTitle": "Duplicate QR code",
+        "tabs": {
+            "content": "Content",
+            "customize": "Customize",
+            "settings": "Settings"
+        },
+        "sample": "Sample",
+        "sampleHint": "Showing a sample until the content is complete.",
+        "randomize": "Randomize style",
+        "saveNew": "Save QR code",
+        "saveEdit": "Save changes",
+        "saveCopy": "Save copy",
+        "saved": "QR code saved",
+        "updated": "Changes saved",
+        "saveError": "Couldn't save the QR code",
+        "incomplete": "Complete the required fields to save",
+        "notOwner": "Only the creator can edit this QR code",
+        "errors": {
+            "too-long": "This content is too long to fit in a QR code",
+            "empty": "Add some content to generate the QR code"
+        },
+        "type": "Type",
+        "titleLabel": "Title",
+        "titlePlaceholder": "Name this QR code",
+        "titleHint": "Shown on the card. Left empty, one is picked from the content.",
+        "cardColor": "Card color",
+        "customColor": "Custom color",
+        "exportTitle": "Export",
+        "exportHint": "Always generated at a fixed size so every code scans the same.",
+        "exportFormat": "Format",
+        "exportFormats": {
+            "png": "PNG",
+            "jpg": "JPG",
+            "svg": "SVG"
+        },
+        "downloadFormat": "Download {{format}}",
+        "exportError": "Couldn't export the image",
+        "unsavedExport": "Downloads the current preview."
+    },
+    "shorten": {
+        "label": "Shorten link",
+        "description": "Creates a short link and encodes it in the QR instead of the original address.",
+        "shortLink": "Short link",
+        "shortening": "Shortening…",
+        "error": "Couldn't shorten the link",
+        "waiting": "Enter a valid URL to shorten it"
+    },
+    "types": {
+        "url": {
+            "label": "URL",
+            "fields": { "url": "Website address", "shorten": "Shorten link", "short_url": "Short link" }
+        },
+        "text": {
+            "label": "Text",
+            "fields": { "text": "Text" }
+        },
+        "wifi": {
+            "label": "WiFi",
+            "fields": {
+                "ssid": "Network name",
+                "security": "Security",
+                "password": "Password",
+                "hidden": "Hidden network"
+            },
+            "options": { "WPA": "WPA / WPA2 / WPA3", "WEP": "WEP", "nopass": "None" }
+        },
+        "vcard": {
+            "label": "Contact",
+            "fields": {
+                "name": "Name",
+                "firstName": "First name",
+                "lastName": "Last name",
+                "org": "Company",
+                "jobTitle": "Job title",
+                "phone": "Phone",
+                "email": "Email",
+                "website": "Website",
+                "address": "Address",
+                "note": "Note"
+            }
+        },
+        "email": {
+            "label": "Email",
+            "fields": { "to": "To", "subject": "Subject", "body": "Message" }
+        },
+        "phone": {
+            "label": "Phone",
+            "fields": { "phone": "Phone number" }
+        },
+        "sms": {
+            "label": "SMS",
+            "fields": { "phone": "Phone number", "message": "Message" }
+        },
+        "geo": {
+            "label": "Location",
+            "fields": { "lat": "Latitude", "lng": "Longitude" }
+        },
+        "event": {
+            "label": "Event",
+            "fields": {
+                "title": "Title",
+                "location": "Location",
+                "allDay": "All day",
+                "start": "Starts",
+                "end": "Ends",
+                "description": "Description"
+            }
+        }
+    },
+    "style": {
+        "groups": {
+            "pixels": "Pixels",
+            "eyes": "Eyes",
+            "colors": "Colors",
+            "background": "Background",
+            "logo": "Logo",
+            "advanced": "Advanced"
+        },
+        "pixel": {
+            "label": "Pixel shape",
+            "options": {
+                "square": "Square",
+                "rounded": "Rounded",
+                "liquid": "Liquid",
+                "dots": "Dots",
+                "diamond": "Diamond",
+                "star": "Star",
+                "bars-v": "Vertical bars",
+                "bars-h": "Horizontal bars"
+            }
+        },
+        "pixelScale": { "label": "Pixel size" },
+        "eyeFrame": {
+            "label": "Eye frame",
+            "options": { "square": "Square", "rounded": "Rounded", "circle": "Circle", "leaf": "Leaf" }
+        },
+        "eyeBall": {
+            "label": "Eye center",
+            "options": {
+                "square": "Square",
+                "rounded": "Rounded",
+                "circle": "Circle",
+                "leaf": "Leaf",
+                "diamond": "Diamond"
+            }
+        },
+        "eyeColorMode": {
+            "label": "Eye colors",
+            "options": { "same": "Same as pixels", "custom": "Custom" }
+        },
+        "eyeFrameColor": { "label": "Eye frame color" },
+        "eyeBallColor": { "label": "Eye center color" },
+        "fgMode": {
+            "label": "Fill",
+            "options": { "solid": "Solid", "linear": "Linear", "radial": "Radial" }
+        },
+        "fg": { "label": "Color" },
+        "fg2": { "label": "Second color" },
+        "fgAngle": { "label": "Gradient angle" },
+        "bgTransparent": { "label": "Transparent background" },
+        "bg": { "label": "Background color" },
+        "bgRadius": { "label": "Corner radius" },
+        "logo": {
+            "label": "Image",
+            "upload": "Choose image",
+            "replace": "Replace image",
+            "remove": "Remove",
+            "error": "Couldn't read that image"
+        },
+        "logoSize": { "label": "Logo size" },
+        "logoPadding": { "label": "Logo padding" },
+        "logoShape": {
+            "label": "Logo shape",
+            "options": { "square": "Square", "rounded": "Rounded", "circle": "Circle" }
+        },
+        "logoBg": { "label": "Logo backing color" },
+        "logoHideDots": { "label": "Clear pixels behind the logo" },
+        "margin": { "label": "Quiet zone" },
+        "ecc": {
+            "label": "Error correction",
+            "hint": "Higher levels survive more damage and allow bigger logos, but make the code denser. Auto picks one for you.",
+            "options": { "auto": "Auto", "L": "L · 7%", "M": "M · 15%", "Q": "Q · 25%", "H": "H · 30%" }
+        }
+    },
+    "guards": {
+        "contrast-low": "Contrast is too low ({{ratio}}:1). Most scanners won't read this.",
+        "contrast-weak": "Contrast is weak ({{ratio}}:1). Pick colors that are further apart.",
+        "inverted": "Light pixels on a dark background aren't read by some scanners.",
+        "transparent": "A transparent background depends on what's behind the code.",
+        "quiet-zone": "A quiet zone under 2 can make the code hard to scan.",
+        "small-pixels": "Small pixels reduce scan reliability.",
+        "logo-covers-eyes": "The logo overlaps the corner eyes. Make it smaller.",
+        "logo-too-big": "The logo hides too much of the code. Make it smaller.",
+        "logo-big": "A big logo can make scanning unreliable. Test it before sharing.",
+        "logo-ecc": "With a logo, error correction H is recommended (now {{ecc}})."
+    },
+    "settings": {
+        "title": "Settings",
+        "identity": {
+            "title": "Your identity",
+            "description": "It's anonymous: generated on its own and kept only in this browser. It marks which QR codes are yours so only you can edit or delete them. Tap the avatar to pick its color.",
+            "name": "Name",
+            "color": "Your avatar color",
+            "regenerate": "Generate another name",
+            "changeColor": "Change color"
+        },
+        "share": {
+            "title": "Configuration",
+            "generateTitle": "Share configuration",
+            "generateDescription": "Creates a link with your settings, including your identity. Open it in another browser to bring your QR codes there.",
+            "generate": "Generate and copy link",
+            "copyAgain": "Copy again",
+            "copiedLink": "Link copied",
+            "applyTitle": "Apply configuration",
+            "applyDescription": "Paste a shared link to bring those settings here.",
+            "applyPlaceholder": "https://…/settings#share=…",
+            "apply": "Apply",
+            "applied": "Configuration applied",
+            "invalid": "That link isn't valid"
+        },
+        "clear": {
+            "title": "Clear data",
+            "description": "Removes your identity and the data kept for offline use from this browser. Your QR codes stay in the database but you won't be able to edit them unless you restore your identity. A new identity is created.",
+            "dialogTitle": "Clear this device's data",
+            "confirmWord": "clear",
+            "label": "Clear data",
+            "done": "Data cleared from this device"
+        }
+    },
+    "delete": {
+        "irreversible": "This action can't be undone.",
+        "type": "Type",
+        "toConfirm": "to confirm",
+        "inputLabel": "Type {{word}} to confirm",
+        "confirm": "Delete",
+        "cancel": "Cancel"
+    },
+    "colorPicker": {
+        "title": "Pick a color",
+        "done": "Done"
+    },
+    "notFound": {
+        "title": "Page not found",
+        "back": "Back to home"
+    }
+}

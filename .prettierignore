@@ -1,0 +1,7 @@
+.claude
+.agents
+.tanstack
+dist
+node_modules
+pnpm-lock.yaml
+src/components/system/coffee-loader.jsx
